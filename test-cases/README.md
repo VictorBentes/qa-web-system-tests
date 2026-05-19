@@ -52,3 +52,57 @@ Sistema deve validar corretamente os campos e impedir dados inválidos, caso nec
 
 Cadastro realizado corretamente.
 
+
+# Caso de Teste - Validação de CNPJ Incompleto
+
+## ID
+
+CT-004
+
+## Objetivo
+
+Validar comportamento do sistema ao inserir CNPJ incompleto.
+
+## Passos
+
+1. Acessar tela de cadastro
+2. Inserir CNPJ com quantidade insuficiente de números
+3. Tentar finalizar cadastro
+
+## Resultado Esperado
+
+Sistema deve impedir o cadastro e apresentar mensagem de validação.
+
+## Resultado Atual
+
+O sistema identificou corretamente o CNPJ incompleto e bloqueou o cadastro.
+
+## Status
+
+Aprovado
+
+
+Caso de Teste - Preenchimento Automático de Endereço via CEP
+ID
+
+CT-005
+
+Objetivo
+
+Validar preenchimento automático de endereço através do CEP informado.
+
+Passos
+Acessar tela de cadastro
+Inserir um CEP válido
+Aguardar carregamento automático dos dados
+Resultado Esperado
+
+Sistema deve preencher automaticamente os campos de endereço corretamente.
+
+Resultado Atual
+
+O sistema preencheu automaticamente os dados do endereço de forma correta após inserção do CEP.
+
+Status
+
+Aprovado
