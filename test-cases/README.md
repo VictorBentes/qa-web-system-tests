@@ -77,6 +77,10 @@ Sistema deve impedir o cadastro e apresentar mensagem de validação.
 
 O sistema identificou corretamente o CNPJ incompleto e bloqueou o cadastro.
 
+## Status
+
+Aprovado
+
 
 # Caso de Teste - Preenchimento Automático de Endereço via CEP
 
