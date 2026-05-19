@@ -6,7 +6,7 @@ Esta pasta contém os casos de teste realizados no sistema web.
 
 ## ID
 
-CT-002
+CT-001
 
 ## Objetivo
 
@@ -32,7 +32,7 @@ Cadastro realizado corretamente.
 
 ## ID
 
-CT-003
+CT-002
 
 ## Objetivo
 
@@ -57,7 +57,7 @@ Cadastro realizado corretamente.
 
 ## ID
 
-CT-004
+CT-003
 
 ## Objetivo
 
@@ -77,32 +77,31 @@ Sistema deve impedir o cadastro e apresentar mensagem de validação.
 
 O sistema identificou corretamente o CNPJ incompleto e bloqueou o cadastro.
 
-## Status
 
-Aprovado
+# Caso de Teste - Preenchimento Automático de Endereço via CEP
 
+## ID
 
-Caso de Teste - Preenchimento Automático de Endereço via CEP
-ID
+CT-004
 
-CT-005
-
-Objetivo
+## Objetivo
 
 Validar preenchimento automático de endereço através do CEP informado.
 
-Passos
-Acessar tela de cadastro
-Inserir um CEP válido
-Aguardar carregamento automático dos dados
-Resultado Esperado
+## Passos
+
+1. Acessar tela de cadastro
+2. Inserir um CEP válido
+3. Aguardar carregamento automático dos dados
+
+## Resultado Esperado
 
 Sistema deve preencher automaticamente os campos de endereço corretamente.
 
-Resultado Atual
+## Resultado Atual
 
 O sistema preencheu automaticamente os dados do endereço de forma correta após inserção do CEP.
 
-Status
+## Status
 
 Aprovado
